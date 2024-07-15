@@ -63,7 +63,43 @@
 
   "linter": {
     "rules": {
-      "all": true
+      "recommended": true,
+      "complexity": {
+        "noExcessiveCognitiveComplexity": {
+          "level": "error",
+          "options": {
+            "maxAllowedComplexity": 15
+          }
+        },
+        "noVoid": "error",
+        "useSimplifiedLogicExpression": "error"
+      },
+      "correctness": {
+        "noUnusedImports": "error",
+        "noUnusedVariables": "error",
+        "useArrayLiterals": "error",
+        "useHookAtTopLevel": "error"
+      },
+      "nursery": {
+        "noDoneCallback": "error",
+        "noDuplicateElseIf": "error",
+        "noDuplicateJsonKeys": "error",
+        "noEvolvingTypes": "error",
+        "noUselessStringConcat": "error",
+        "noUselessUndefinedInitialization": "error",
+        "noYodaExpression": "error",
+        "useConsistentBuiltinInstantiation": "error",
+        "useErrorMessage": "error",
+        "useExplicitLengthCheck": "error",
+        "useNumberToFixedDigitsArgument": "error",
+        "useSemanticElements": "error",
+        "useThrowOnlyError": "error",
+        "useTopLevelRegex": "error"
+      },
+      "performance": {
+        "noBarrelFile": "error",
+        "noReExportAll": "error"
+      }
     }
   }
 }
