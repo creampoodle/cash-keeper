@@ -99,6 +99,21 @@
       "performance": {
         "noBarrelFile": "error",
         "noReExportAll": "error"
+      },
+      "style": {
+        "noNamespace": "error",
+        "noNamespaceImport": "error",
+        "useBlockStatements": "error",
+        "useCollapsedElseIf": "error",
+        "useConsistentArrayType": {
+          "level": "error",
+          "options": {
+            "syntax": "shorthand"
+          }
+        },
+        "useForOf": "error",
+        "useFragmentSyntax": "error",
+        "useSingleCaseStatement": "error"
       }
     }
   }
