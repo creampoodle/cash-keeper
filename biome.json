@@ -114,6 +114,10 @@
         "useForOf": "error",
         "useFragmentSyntax": "error",
         "useSingleCaseStatement": "error"
+      },
+      "suspicious": {
+        "noEmptyBlockStatements": "error",
+        "useAwait": "error"
       }
     }
   }
