@@ -3,7 +3,7 @@
 
   "files": {
     "ignoreUnknown": true,
-    "ignore": [".next", "node_modules", "package.json"]
+    "ignore": [".next", "node_modules", "renovate.json"]
   },
 
   "formatter": {
@@ -44,11 +44,11 @@
   "json": {
     "parser": {
       "allowComments": true,
-      "allowTrailingCommas": true
+      "allowTrailingCommas": false
     },
     "formatter": {
       "enabled": true,
-      "trailingCommas": "all"
+      "trailingCommas": "none"
     },
     "linter": {
       "enabled": true
