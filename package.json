@@ -1,6 +1,7 @@
 {
   "name": "cash-keeper",
   "version": "1.0.0",
+  "type": "module",
   "private": true,
   "description": "작고 귀여운 가계부에요",
   "homepage": "https://github.com/creampoodle/cash-keeper#readme",
@@ -32,7 +33,8 @@
     "lint": "biome lint --write",
     "format": "biome format --write",
     "check": "biome check --write",
-    "reporter": "biome check --reporter=summary"
+    "reporter": "biome check --reporter=summary",
+    "publint": "bunx publint"
   },
   "dependencies": {
     "next": "14.2.5",
